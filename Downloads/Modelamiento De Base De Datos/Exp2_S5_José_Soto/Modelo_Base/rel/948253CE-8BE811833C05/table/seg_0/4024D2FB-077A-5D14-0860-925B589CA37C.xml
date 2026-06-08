@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4024D2FB-077A-5D14-0860-925B589CA37C" name="PAGO_ATENCION">
+<createdBy>jose2</createdBy>
+<createdTime>2025-09-15 19:31:50 UTC</createdTime>
+<generatorID>595F4E66-8D0D-949E-C8B4-95A29D1FD8C7</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pago" id="A3DA2AF1-16FB-AF49-5BEC-38723557C58D">
+<createdBy>jose2</createdBy>
+<createdTime>2025-09-15 19:31:50 UTC</createdTime>
+<generatorID>898B2D26-CC58-71EB-73C2-5A88BD086BFB</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="monto_cancelado" id="CC6227A4-4BBC-FC88-15D5-D2FD7EE3680C">
+<createdBy>jose2</createdBy>
+<createdTime>2025-09-15 19:31:50 UTC</createdTime>
+<generatorID>30FBD25B-748A-86C2-ACE1-815A73CBBDC4</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_de_pago" id="F6CFDCEE-57D7-CACD-9CF0-D76639354CC4">
+<createdBy>jose2</createdBy>
+<createdTime>2025-09-15 19:31:50 UTC</createdTime>
+<generatorID>66A00B55-D70A-F50C-ECFF-FFF62A74053C</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_atencion" id="315592FE-7DAB-2719-7BA1-BC1C60F1BFEE">
+<createdBy>jose2</createdBy>
+<createdTime>2025-09-15 19:31:50 UTC</createdTime>
+<generatorID>DB5C53B0-D071-C56F-9D25-E84EDEF50A10</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2584E6E9-4CD1-DA79-8FD8-8E1B92B4F2F9" referredColumn="230E4D72-C1BB-9BDD-1DC8-E70BA05A12E6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5B441F5F-332A-7A63-F73D-7F3A61A05018" name="PAGO_ATENCION_PK">
+<createdBy>jose2</createdBy>
+<createdTime>2025-09-15 19:31:50 UTC</createdTime>
+<generatorID>9DA8FA9D-8B43-5CF1-D4D8-2E5C30F1A47C</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3DA2AF1-16FB-AF49-5BEC-38723557C58D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0253479C-F040-9B09-3D7A-8CADA0CBDDA5" name="PAGO_ATENCION__IDX">
+<createdBy>jose2</createdBy>
+<createdTime>2025-09-15 19:31:50 UTC</createdTime>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>EA92B2C5-03B5-6C39-5D62-7C7EA19842A1</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="315592FE-7DAB-2719-7BA1-BC1C60F1BFEE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A8241308-1C49-8A82-F728-374033C3DBF3" name="PAGOYATENCION_FK">
+<createdBy>jose2</createdBy>
+<createdTime>2025-09-15 19:31:50 UTC</createdTime>
+<generatorID>EA92B2C5-03B5-6C39-5D62-7C7EA19842A1</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="315592FE-7DAB-2719-7BA1-BC1C60F1BFEE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

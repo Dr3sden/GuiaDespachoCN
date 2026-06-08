@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="661A7FB7-E68D-8282-C8CD-13F85C108D23" name="INSTITUCION_DE_SALUD">
+<createdBy>jose2</createdBy>
+<createdTime>2025-09-15 19:31:50 UTC</createdTime>
+<generatorID>5A6B540F-FC71-41B9-8962-3A50FC47FFFD</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_institucion" id="918713C6-517D-95F5-3A75-631007B2FE0D">
+<createdBy>jose2</createdBy>
+<createdTime>2025-09-15 19:31:50 UTC</createdTime>
+<generatorID>7C030FDA-2491-1A55-C301-517EAB79BC66</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="D5AC4466-25CA-86F8-FE55-BDB76EAFB9DB">
+<createdBy>jose2</createdBy>
+<createdTime>2025-09-15 19:31:50 UTC</createdTime>
+<generatorID>467AB95F-9C13-5019-15E1-3C23BB9616EC</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FBB451A8-C6E8-750D-8C04-83D0842EE9BD" name="INSTITUCION_DE_SALUD_PK">
+<createdBy>jose2</createdBy>
+<createdTime>2025-09-15 19:31:50 UTC</createdTime>
+<generatorID>C1E018DF-5245-D211-204E-D9F70B061957</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="918713C6-517D-95F5-3A75-631007B2FE0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

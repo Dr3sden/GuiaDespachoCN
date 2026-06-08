@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="27B69DFB-4539-274B-18E0-F96F347F65CD" name="UNIDAD_DE_ATENCION">
+<createdBy>jose2</createdBy>
+<createdTime>2025-09-15 19:31:50 UTC</createdTime>
+<generatorID>4B0EEE34-4136-01B9-E9EB-116942CD518A</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nombre_unidad" id="779DD0EF-AD74-3A88-DBBF-005C4EF6E3D1">
+<createdBy>jose2</createdBy>
+<createdTime>2025-09-15 19:31:50 UTC</createdTime>
+<generatorID>734F6920-4594-A5E5-7B5B-CFC43DDAAC26</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="510F2E66-A295-7E29-CFC0-60765BB69135">
+<createdBy>jose2</createdBy>
+<createdTime>2025-09-15 19:31:50 UTC</createdTime>
+<generatorID>B9976358-04E4-FE0D-3D94-68951CBE1EA4</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0803B39D-27F8-67DF-CD62-559627EDE0DA" name="UNIDAD_DE_ATENCION_PK">
+<createdBy>jose2</createdBy>
+<createdTime>2025-09-15 19:31:50 UTC</createdTime>
+<generatorID>A4F88CDE-EDBC-6542-4BB0-FB45B18025B6</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="779DD0EF-AD74-3A88-DBBF-005C4EF6E3D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

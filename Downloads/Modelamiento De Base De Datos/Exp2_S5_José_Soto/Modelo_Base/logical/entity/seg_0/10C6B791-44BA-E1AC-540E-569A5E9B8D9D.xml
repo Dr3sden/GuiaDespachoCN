@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="10C6B791-44BA-E1AC-540E-569A5E9B8D9D" name="EXAMEN_DE_LABORATORIO">
+<createdBy>jose2</createdBy>
+<createdTime>2025-09-15 18:41:47 UTC</createdTime>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<engineerTo>
+<item key="948253CE-4FE6-BB5B-47F7-8BE811833C05" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_examen" id="CE9DEFC8-F769-277E-7001-A6DDE0F73EC5">
+<createdBy>jose2</createdBy>
+<createdTime>2025-09-15 18:42:00 UTC</createdTime>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<engineerTo>
+<item key="948253CE-4FE6-BB5B-47F7-8BE811833C05" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="E2FDC0B9-2519-71C8-166A-C4A1282D8222">
+<createdBy>jose2</createdBy>
+<createdTime>2025-09-15 18:42:15 UTC</createdTime>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<engineerTo>
+<item key="948253CE-4FE6-BB5B-47F7-8BE811833C05" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_de_muestra" id="EBC69A30-0D6E-5915-3132-5BD1E2AE6A43">
+<createdBy>jose2</createdBy>
+<createdTime>2025-09-15 18:42:34 UTC</createdTime>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<engineerTo>
+<item key="948253CE-4FE6-BB5B-47F7-8BE811833C05" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="condiciones_preparacion" id="26AE7B6F-A25B-6C86-2C45-984199BA383C">
+<createdBy>jose2</createdBy>
+<createdTime>2025-09-15 18:42:48 UTC</createdTime>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<engineerTo>
+<item key="948253CE-4FE6-BB5B-47F7-8BE811833C05" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="328E9EB7-EAD7-1955-B860-3A9A5B2325F2" name="EXAMEN_DE_LABORATORIO PK">
+<createdBy>jose2</createdBy>
+<createdTime>2025-09-15 18:42:14 UTC</createdTime>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<engineerTo>
+<item key="948253CE-4FE6-BB5B-47F7-8BE811833C05" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CE9DEFC8-F769-277E-7001-A6DDE0F73EC5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

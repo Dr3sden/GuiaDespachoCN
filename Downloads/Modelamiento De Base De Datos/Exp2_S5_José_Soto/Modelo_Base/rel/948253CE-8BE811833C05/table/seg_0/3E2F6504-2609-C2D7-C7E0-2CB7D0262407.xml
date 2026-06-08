@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3E2F6504-2609-C2D7-C7E0-2CB7D0262407" name="ATENCION_MEDICA">
+<createdBy>jose2</createdBy>
+<createdTime>2025-09-15 19:31:50 UTC</createdTime>
+<generatorID>D2D2C85E-E76B-6480-294F-71FD97634FC3</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_atencion" id="230E4D72-C1BB-9BDD-1DC8-E70BA05A12E6">
+<createdBy>jose2</createdBy>
+<createdTime>2025-09-15 19:31:50 UTC</createdTime>
+<generatorID>A193B160-5896-FCD1-058E-ECF2F7FFD47C</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_atencion" id="990ABADC-20FB-0EA3-FC32-70419145EDAB">
+<createdBy>jose2</createdBy>
+<createdTime>2025-09-15 19:31:50 UTC</createdTime>
+<generatorID>11BAF675-BEFC-AC41-F523-02D1AD805514</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_paciente" id="5C33E5F4-1355-9553-6B0B-FF2ECCFCF9B3">
+<createdBy>jose2</createdBy>
+<createdTime>2025-09-15 19:31:50 UTC</createdTime>
+<generatorID>F053977C-5722-91D6-C7D8-593FF5E8207A</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2B85A112-EC85-4AA4-05D5-EAC47862DBBE" referredColumn="DCFB3198-7C00-5B93-C574-8AED098C8E01"/>
+</associations>
+</Column>
+<Column name="hora" id="6075D9B0-F583-F5FD-5F3B-E955B4D32DF1">
+<createdBy>jose2</createdBy>
+<createdTime>2025-09-15 19:31:50 UTC</createdTime>
+<generatorID>682028AD-CFD3-98B4-4483-2AB72BB8C5C2</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_de_atencion" id="F105DB9D-BF3D-8046-AB84-25138BB91A1E">
+<createdBy>jose2</createdBy>
+<createdTime>2025-09-15 19:31:50 UTC</createdTime>
+<generatorID>F2AF6A1D-7B37-8715-DEC6-6D3A007175D5</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="diagnostico" id="E836C07E-43C1-6CA6-5BA0-5C9C254B5635">
+<createdBy>jose2</createdBy>
+<createdTime>2025-09-15 19:31:50 UTC</createdTime>
+<generatorID>6D13A7E9-E2D8-D1D9-11F6-0094ABF096C5</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_consulta" id="ACCE6399-E41E-8217-0D53-AC41C05B09C8">
+<createdBy>jose2</createdBy>
+<createdTime>2025-09-15 19:31:50 UTC</createdTime>
+<generatorID>132854E2-40CC-68E1-93F5-D30C6ACE9ADE</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_medico" id="E47677AE-47B4-6C3B-E458-889CEAEE63F3">
+<createdBy>jose2</createdBy>
+<createdTime>2025-09-15 19:31:50 UTC</createdTime>
+<generatorID>ECBFD01C-EDCF-FF57-A54E-0C0E181188CD</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="003F7842-F346-8D48-CC5A-05E51A73A266" referredColumn="2A71E0CD-762B-E7FD-8B85-168482C2241A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="594FDFE7-0739-A7D6-D1EF-EFD49F3CCA00" name="ATENCION_MEDICA_PK">
+<createdBy>jose2</createdBy>
+<createdTime>2025-09-15 19:31:50 UTC</createdTime>
+<generatorID>0983AC00-E827-76D1-A82C-A88CF4259CA4</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="230E4D72-C1BB-9BDD-1DC8-E70BA05A12E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="00527FCF-054C-1180-0002-BAECE51B6BAD" name="ATENCION_PACIENTE_FK">
+<createdBy>jose2</createdBy>
+<createdTime>2025-09-15 19:31:50 UTC</createdTime>
+<generatorID>7189DE1E-1630-3FD4-0C79-3473FD46D2F8</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C33E5F4-1355-9553-6B0B-FF2ECCFCF9B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="443F3D57-7DA7-051B-D81D-A5806D3C9FE6" name="ATENCION_MEDICO_FK">
+<createdBy>jose2</createdBy>
+<createdTime>2025-09-15 19:31:50 UTC</createdTime>
+<generatorID>67172BDD-6C5E-8CF5-BDEB-0D1C6EA3210C</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E47677AE-47B4-6C3B-E458-889CEAEE63F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
